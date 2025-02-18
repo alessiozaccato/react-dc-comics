@@ -54,3 +54,38 @@ header {
   border-bottom: 2px solid blue;
   color: lightblue;
 }
+
+/* components: Main  */
+main {
+  background-color: #000;
+  color: white;
+}
+
+.contentSection {
+  font-size: 2rem;
+  min-height: 10vh;
+}
+
+.contentSection p {
+  padding: 1.7rem 0;
+}
+
+.bgBlue {
+  background-color: #0282f9;
+}
+
+.infoSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoSection div {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 1em 0;
+}
+
+.infoSection div figure img {
+  width: 50px;
+}
