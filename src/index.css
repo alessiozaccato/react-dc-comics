@@ -99,6 +99,7 @@ footer {
 footer section {
   display: flex;
   gap: 4em;
+  padding-block: 2em;
 }
 
 footer section ul li a {
@@ -124,7 +125,7 @@ footer section ul li {
 
 .bgBlack {
   background-color: #303030;
-  padding-block: 41px;
+  padding-block: 0.6em;
 }
 
 .footerSocials {
