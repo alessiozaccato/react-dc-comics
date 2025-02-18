@@ -1,8 +1,10 @@
+import logo from "../assets/img/dc-logo.png"
+
 const Header = () => {
     return (
         <header className="container">
             <figure>
-                <img src="../src/assets/img/dc-logo.png" alt="logo" />
+                <img src={logo} alt="logo" />
             </figure>
             <nav>
                 <ul className="headerNav">
