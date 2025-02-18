@@ -106,6 +106,12 @@ footer section ul li a {
   color: #959595;
 }
 
+.bgLogo {
+  background-image: url("./assets/img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .listHeader {
   color: white;
 

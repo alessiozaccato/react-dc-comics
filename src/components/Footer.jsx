@@ -7,7 +7,7 @@ import periscope from "../assets/img/footer-periscope.png"
 const Footer = () => {
     return (
         <footer >
-            <section className="container">
+            <section className="container bgLogo">
                 <ul>
                     <li className="listHeader"><h2>DC COMICS</h2></li>
                     <li><a href="#">Characters</a></li>
@@ -45,6 +45,7 @@ const Footer = () => {
                     <li><a href="#">DC Power Visa</a></li>
 
                 </ul>
+
             </section>
             <div className=" bgBlack ">
                 <div className="container footerSocials">
