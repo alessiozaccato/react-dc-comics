@@ -61,7 +61,6 @@ main {
 
 .contentSection {
   font-size: 2rem;
-  /* min-height: 10vh; */
 }
 
 .contentSection p {
@@ -86,6 +85,7 @@ main {
 
 .infoSection div figure img {
   width: 50px;
+  aspect-ratio: 1;
 }
 
 /* component footer  */
@@ -147,5 +147,6 @@ footer section ul li {
 
 .socialsLogos {
   display: flex;
+  align-items: center;
   gap: 1.5em;
 }
