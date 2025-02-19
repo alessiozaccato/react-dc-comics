@@ -16,6 +16,7 @@ const Header = (props) => {
     //     { id: 10, title: 'shop', url: '#' }
     // ]
 
+    // let's give the array of objects through props 
     const { headerLinks } = props;
 
     return (

@@ -85,7 +85,7 @@ main {
 
 .infoSection div figure img {
   width: 50px;
-  aspect-ratio: 1;
+  /* aspect-ratio: 1; */
 }
 
 /* component footer  */
