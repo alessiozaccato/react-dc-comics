@@ -85,8 +85,8 @@ main {
 .hero {
   background-image: url("./assets/img/jumbotron.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   height: 40vh;
-
 }
 
 .comics {
@@ -105,6 +105,11 @@ main {
   display: flex;
   justify-content: center;
   overflow: hidden;
+
+}
+
+.card figure img {
+  object-fit: cover;
 }
 
 .addMore {
@@ -210,5 +215,3 @@ footer section ul li {
 .socialsLogos li:hover {
   color: aliceblue;
 }
-
-.socialsLogos li a img:hover {}
