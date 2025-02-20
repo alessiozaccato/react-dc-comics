@@ -3,13 +3,12 @@ import dcMerchandise from "../assets/img/buy-comics-merchandise.png"
 import subscriptions from "../assets/img/buy-comics-subscriptions.png"
 import shopLocator from "../assets/img/buy-comics-shop-locator.png"
 import dcPowerVisa from "../assets/img/buy-dc-power-visa.svg"
+import ComicsList from "./ComicsLists"
 
 const Main = () => {
     return (
         <main>
-            <section className="contentSection container">
-                <p>Content Goes Here</p>
-            </section>
+            <ComicsList />
             <div className="bgBlue">
                 <section className="infoSection container">
 
