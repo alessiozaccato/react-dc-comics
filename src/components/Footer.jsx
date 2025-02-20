@@ -49,9 +49,9 @@ const Footer = () => {
             </section>
             <div className=" bgBlack ">
                 <div className="container footerSocials">
-                    <ul>
-                        <li><a className="button" href="#">SIGN UP NOW!</a></li>
-                    </ul>
+                    <div>
+                        <button className="button">SIGN UP NOW!</button>
+                    </div>
                     <ul className="socialsLogos">
                         <li className="listHeaderFooter"><a href="#"></a><h2>FOLLOW US</h2></li>
                         <li><a href="#"><img src={facebook} alt="facebook" /></a></li>

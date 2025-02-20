@@ -23,6 +23,10 @@ li {
   list-style-type: none;
 }
 
+ul li a:hover {
+  color: aqua;
+}
+
 /* Utils */
 .container {
   margin: 0 auto;
@@ -30,6 +34,13 @@ li {
 }
 
 /* component: Header  */
+.position {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 header {
   padding-block: 1rem;
   display: flex;
@@ -41,16 +52,18 @@ header {
   text-transform: uppercase;
   display: flex;
   gap: 1em;
+
 }
 
 
 .headerNav li a {
   transition: 0.5s;
+  padding: 10px;
 }
 
+
 .headerNav li a:hover {
-  border-bottom: 2px solid blue;
-  color: lightblue;
+  background: #0282f9;
 }
 
 /* component: Main  */
@@ -63,8 +76,39 @@ main {
   font-size: 2rem;
 }
 
-.contentSection p {
-  padding: 1.7rem 0;
+.contentSection h2 {
+  color: #0282f9;
+  margin-block: 1em;
+  text-align: center;
+}
+
+.hero {
+  background-image: url("./assets/img/jumbotron.jpg");
+  background-size: cover;
+  height: 40vh;
+
+}
+
+.comics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card {
+  flex-basis: calc(100% / 3 - 15px);
+
+}
+
+
+.addMore {
+  margin-block: 1em;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+
 }
 
 .bgBlue {
@@ -85,7 +129,6 @@ main {
 
 .infoSection div figure img {
   width: 50px;
-  /* aspect-ratio: 1; */
 }
 
 /* component footer  */
@@ -127,6 +170,13 @@ footer section ul li {
   color: white;
   border: 2px solid #0282f9;
   padding: 10px;
+
+}
+
+.button:hover {
+  transition: 0.5s;
+  background: rgb(90, 185, 217);
+  cursor: pointer;
 }
 
 .bgBlack {

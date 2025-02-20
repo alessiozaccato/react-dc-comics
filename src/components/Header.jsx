@@ -20,15 +20,17 @@ const Header = (props) => {
     const { headerLinks } = props;
 
     return (
-        <header className="container">
-            <figure>
-                <img src={logo} alt="logo" />
-            </figure>
-            <nav>
-                <ul className="headerNav">
+        <div className="position">
 
-                    {/* old method */}
-                    {/* <li><a href="#">characters</a></li>
+            <header className="container">
+                <figure>
+                    <img src={logo} alt="logo" />
+                </figure>
+                <nav>
+                    <ul className="headerNav">
+
+                        {/* old method */}
+                        {/* <li><a href="#">characters</a></li>
                     <li><a href="#">comics</a></li>
                     <li><a href="#">movies</a></li>
                     <li><a href="#">tv</a></li>
@@ -39,23 +41,24 @@ const Header = (props) => {
                     <li><a href="#">news</a></li>
                     <li><a href="#">shop</a></li> */}
 
-                    {/* new method  */}
-                    {
-                        headerLinks.map((link) => {
+                        {/* new method  */}
+                        {
+                            headerLinks.map((link) => {
 
-                            // destructuring
-                            const { id, title, url } = link;
+                                // destructuring
+                                const { id, title, url } = link;
 
-                            return (
-                                <li key={id}>
-                                    <a href={url}>{title}</a>
-                                </li>
-                            )
-                        })
-                    }
-                </ul>
-            </nav>
-        </header>
+                                return (
+                                    <li key={id}>
+                                        <a href={url}>{title}</a>
+                                    </li>
+                                )
+                            })
+                        }
+                    </ul>
+                </nav>
+            </header>
+        </div>
     )
 }
 
