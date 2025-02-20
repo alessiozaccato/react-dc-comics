@@ -5,10 +5,10 @@ import shopLocator from "../assets/img/buy-comics-shop-locator.png"
 import dcPowerVisa from "../assets/img/buy-dc-power-visa.svg"
 import ComicsList from "./ComicsLists"
 
-const Main = () => {
+const Main = (props) => {
     return (
         <main>
-            <ComicsList />
+            <ComicsList comics={props.comics} />
             <div className="bgBlue">
                 <section className="infoSection container">
 

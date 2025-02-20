@@ -92,14 +92,20 @@ main {
 .comics {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 10px;
 }
 
 .card {
-  flex-basis: calc(100% / 3 - 15px);
-
+  flex-basis: calc(100% / 6 - 10px);
 }
 
+.card figure {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
 
 .addMore {
   margin-block: 1em;
@@ -200,3 +206,9 @@ footer section ul li {
   align-items: center;
   gap: 1.5em;
 }
+
+.socialsLogos li:hover {
+  color: aliceblue;
+}
+
+.socialsLogos li a img:hover {}
